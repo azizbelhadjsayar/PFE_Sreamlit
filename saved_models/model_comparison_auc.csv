@@ -1,0 +1,4 @@
+,AUC_test
+XGBoost,0.959741128300907
+Random Forest,0.9593920930021119
+Logistic Regression,0.9310948073872206
