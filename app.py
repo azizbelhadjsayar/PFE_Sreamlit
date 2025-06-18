@@ -50,7 +50,7 @@ def load_data_and_models():
 df_all, le_Zone, le_Constructeur, le_Région, le_Site_Critique, best_model = load_data_and_models()
 site_ids = df_all['SiteID'].unique().tolist()
 
-st.title("🔮 Application de prédiction de Dégradation Réseau (Label T+1)")
+st.title("SMART NETWORK MONOTORING - Prédiction de dégradation réseau")
 
 st.markdown("""
 - Sélectionnez un **SiteID**.
