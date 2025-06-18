@@ -50,6 +50,7 @@ def load_data_and_models():
 df_all, le_Zone, le_Constructeur, le_Région, le_Site_Critique, best_model = load_data_and_models()
 site_ids = df_all['SiteID'].unique().tolist()
 
+st.image("logo.svg", width=150)
 st.title("SMART NETWORK MONOTORING - Prédiction de dégradation réseau")
 
 st.markdown("""
